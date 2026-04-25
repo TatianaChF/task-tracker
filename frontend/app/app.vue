@@ -1,6 +1,8 @@
+<script setup lang="ts">
+import RegistrationModals from "~/components/modals/registration-modals.vue";
+</script>
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <RegistrationModals />
   </div>
 </template>
